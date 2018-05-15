@@ -1,0 +1,88 @@
+body {
+    background-image: url(../images/bobba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+    margin-left: 20px;
+    padding-bottom: 30px;
+}
+img {
+    height: 80px;
+}
+div {
+    display: inline;
+}
+h1 {
+    margin-top: 10px;
+    color: white;
+    font-size: 35px;
+}
+h2 {
+    color: white;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.char-div{
+    background-color: gray;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+p {
+    color: white;
+    text-align: center;
+}
+
+.char-name {
+    margin-bottom: 5px;
+}
+.char-hp {
+    margin-top: 5px;
+}
+
+.hide {
+    display: none !important;
+}
+.char-enemy {
+    background-color: red;
+    padding: 10px;
+    border: 2px solid white;
+}
+.enemies {
+    color: black;
+    font-weight: bold;
+}
+
+button {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+#chosen {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+#fighter {
+    margin-top: 10px;
+    margin-left: 20px;
+    color: black;
+
+}
+
+#enemies {
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+#chosen-dmg {
+    margin: 3px 20px;
+}
+#fighter-dmg {
+    margin: 3px 20px;
+}
